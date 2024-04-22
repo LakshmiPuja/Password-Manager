@@ -1,0 +1,51 @@
+.list-item {
+  list-style-type: none;
+  border: 1px solid #7683cb;
+  width: 30%;
+  height: 20%;
+  margin: 10px;
+}
+.account-container {
+  display: flex;
+  flex-direction: row;
+}
+.details {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+.initial {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+.starts-img {
+  width: 100%;
+}
+.delete-img {
+  height: 30px;
+  width: 40px;
+}
+.delete-btn {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
